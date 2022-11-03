@@ -1,13 +1,13 @@
-package single.sing.on;
+package com.sso.arquitectura;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OnApplication {
+public class ArquitecturaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OnApplication.class, args);
+		SpringApplication.run(ArquitecturaApplication.class, args);
 	}
 
 }
