@@ -65,12 +65,19 @@
 			<version>20220924</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.10</version>
+		</dependency>
+
 
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
+				<version>${project.parent.version}</version>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
@@ -80,6 +87,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<addResources>true</addResources>
 				</configuration>
 			</plugin>
 		</plugins>
